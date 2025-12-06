@@ -11,19 +11,19 @@ tag = 'tags'
 
 [params]
 # Meta description
-description = "A Tech Blog"
+description = "ItzNawfalz04 Website"
 
 # Appearance settings
-theme = 'auto'
+theme = 'dark'
 colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Hi!'
-homeIntroContent = """
-I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
-I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
-"""
+# homeIntroTitle = 'Hi!'
+# homeIntroContent = """
+# I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
+# 
+# """
 
 # Collection to display on home
 # homeCollectionTitle = 'Posts'
@@ -41,26 +41,22 @@ showCurrentPage = true
 home = "~"
 
 # Social icons
-[[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/user/"
+# [[params.social]]
+# name = "linkedin"
+# url = "https://www.linkedin.com/in/user/"
 
-[[params.social]]
-name = "medium"
-url = "https://medium.com/@user"
+# [[params.social]]
+# name = "medium"
+# url = "https://medium.com/@user"
 
-[[params.social]]
-name = "github"
-url = "https://github.com/user"
+# [[params.social]]
+# name = "github"
+# url = "https://github.com/user"
 
 # Main menu pages
-[[params.menu]]
-name = "home"
-url = "/"
-
-[[params.menu]]
-name = "projects"
-url = "/projects"
+# [[params.menu]]
+# name = "home"
+# url = "/"
 
 [[params.menu]]
 name = "posts"
@@ -88,3 +84,6 @@ theme = "preferred_color_scheme"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files

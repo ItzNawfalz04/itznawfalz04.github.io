@@ -11,7 +11,7 @@ https://github.com/gohugoio/hugo/blob/89bd02/tpl/tplimpl/embedded/templates/_def
   {{/* Check if this is a page bundle or standalone page */}}
   {{- if .PageInner.Resources -}}
     {{- $imgResource = .PageInner.Resources.Get $path -}}
-  {{- else if (or .PageInner.Parent .PageInner.Parent.Resources) -}}
+  {{- else if (and .PageInner.Parent .PageInner.Parent.Resources) -}}
     {{- $imgResource = .PageInner.Parent.Resources.Get $path -}}
   {{- end -}}
   {{- $imgResource := or $imgResource (resources.Get $path) -}}

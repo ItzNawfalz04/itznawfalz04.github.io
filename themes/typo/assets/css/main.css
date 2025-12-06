@@ -206,6 +206,13 @@ hr {
   text-decoration: none;
 }
 
+/* Mobile styles */
+@media (max-width: 768px) { /* or your preferred mobile breakpoint */
+  .header-title {
+    font-size: 2em; /* Smaller font size for mobile */
+  }
+}
+
 /* Footer */
 
 footer {
@@ -481,6 +488,8 @@ figure {
     max-height: var(--figure-img-max-height);
     width: auto;
     margin-inline: auto;
+    border-radius: 8px; /* Add this line */
+    overflow: hidden; /* This is important to clip the image */
   }
 
   img {
