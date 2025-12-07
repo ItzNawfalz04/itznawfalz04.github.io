@@ -2,10 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on ItzNawfalz04</title>
-    <link>http://10.203.102.149:1313/</link>
+    <link>http://10.203.108.207:1313/</link>
     <description>Recent content in Home on ItzNawfalz04</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://10.203.102.149:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.203.108.207:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://10.203.108.207:1313/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://10.203.108.207:1313/about-me/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css&#34;&gt;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;.social-icons {&#xD;&#xA;    margin-top: -18px;&#xD;&#xA;    display: flex;&#xD;&#xA;    justify-content: flex-start;&#xD;&#xA;    gap: 0px;&#xD;&#xA;    margin-bottom: 20px;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;/* Base icon size (mobile) */&#xD;&#xA;.social-icons i {&#xD;&#xA;    font-size: 25px;&#xD;&#xA;    color: #ccc;&#xD;&#xA;    transition: color 0.25s ease, transform 0.25s ease;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;/* Hover effect */&#xD;&#xA;.social-icons i:hover {&#xD;&#xA;    color: #fff;&#xD;&#xA;    transform: scale(1.12);&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;/* Tablet */&#xD;&#xA;@media (min-width: 600px) {&#xD;&#xA;    .social-icons i {&#xD;&#xA;        font-size: 26px;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;/* Desktop */&#xD;&#xA;@media (min-width: 992px) {&#xD;&#xA;    .social-icons i {&#xD;&#xA;        font-size: 28px;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;ul &gt; li:first-child {&#xD;&#xA;    margin-top: -1rem;&#xD;&#xA;    margin-left: 1rem;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;li {&#xD;&#xA;    margin-left: 1rem;&#xD;&#xA;}&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; &gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;Faculty of Computing&#34; src=&#34;http://10.203.108.207:1313/Front-Banner.png&#34; &gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://10.203.108.207:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://10.203.108.207:1313/projects/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

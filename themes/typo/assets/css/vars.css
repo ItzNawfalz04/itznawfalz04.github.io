@@ -53,7 +53,7 @@
     --social-icons-bottom-margin: 3rem;
 
     /* Footer */
-    --footer-height: 3rem;
+    --footer-height: 4rem;
 
     /* Content */
     --content-height: calc(100vh - var(--footer-height));

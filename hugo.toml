@@ -15,7 +15,7 @@ description = "ItzNawfalz04 Website"
 
 # Appearance settings
 theme = 'dark'
-colorPalette = 'default'
+colorPalette = 'base16-default'
 hideHeader = false
 
 # Intro on main page, content is markdown
@@ -36,7 +36,7 @@ listDateFormat = '2 Jan 2006'
 
 # Breadcrumbs
 [params.breadcrumbs]
-enabled = true
+enabled = false
 showCurrentPage = true
 home = "~"
 
@@ -54,17 +54,21 @@ home = "~"
 # url = "https://github.com/user"
 
 # Main menu pages
-# [[params.menu]]
-# name = "home"
-# url = "/"
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
 
 [[params.menu]]
 name = "posts"
 url = "/posts"
 
 [[params.menu]]
-name = "about"
-url = "/about"
+name = "about-me"
+url = "/about-me"
 
 # Syntax highlight on code blocks
 [markup]
