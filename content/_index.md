@@ -43,9 +43,11 @@ hidePagination = true
 }
 </style>
 
-![Faculty of Computing](/Front-Banner.png)   
+![Faculty of Computing](/Front-Image.png)   
 
-My name is **Nawfal** and I am a Software Engineering student at **Universiti Teknologi Malaysia (UTM), Johor Bahru**. I am passionate about continuously learning new skills and knowledge to enhance my abilities and stay ahead in the industry.  
+Hi, my name is **Nawfal** 👋...  
+
+Currently, I am university student pursuing Bachelor in Software Engineering at **Universiti Teknologi Malaysia (UTM), Johor Bharu**. 
 
 Feel free to explore my projects, read my posts, and get to know me better.
 

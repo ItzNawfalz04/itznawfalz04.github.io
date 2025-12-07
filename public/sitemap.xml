@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://10.203.102.149:1313/</loc>
+    <loc>http://10.203.108.207:1313/about-me/</loc>
   </url><url>
-    <loc>http://10.203.102.149:1313/tags/</loc>
+    <loc>http://10.203.108.207:1313/</loc>
+  </url><url>
+    <loc>http://10.203.108.207:1313/posts/</loc>
+  </url><url>
+    <loc>http://10.203.108.207:1313/projects/</loc>
+  </url><url>
+    <loc>http://10.203.108.207:1313/tags/</loc>
   </url>
 </urlset>
