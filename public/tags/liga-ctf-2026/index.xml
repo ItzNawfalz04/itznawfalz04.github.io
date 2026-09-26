@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LIGA CTF 2026 on ItzNawfalz04</title>
+    <link>http://localhost:1313/tags/liga-ctf-2026/</link>
+    <description>Recent content in LIGA CTF 2026 on ItzNawfalz04</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Sat, 13 Jun 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/liga-ctf-2026/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LIGA CTF 2026 (Week 4) – Web Exploitation</title>
+      <link>http://localhost:1313/posts/liga-ctf-2026-week-4-web-exploitation/</link>
+      <pubDate>Sat, 13 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/liga-ctf-2026-week-4-web-exploitation/</guid>
+      <description>CTF Write-Up for all Web Exploitation challenges that were solved during Week 4 of Liga CTF 2026.</description>
+    </item>
+    <item>
+      <title>LIGA CTF 2026 (Week 3) – Forensics, Log Analysis, OSINT</title>
+      <link>http://localhost:1313/posts/liga-ctf-2026-week-3-forensics-log-analysis-osint/</link>
+      <pubDate>Mon, 08 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/liga-ctf-2026-week-3-forensics-log-analysis-osint/</guid>
+      <description>CTF Write-Up for all Forensics, Log Analysis and OSINT challenges that were solved during Week 3 of Liga CTF 2026.</description>
+    </item>
+    <item>
+      <title>LIGA CTF 2026 (Week 2) – Boot-to-Root</title>
+      <link>http://localhost:1313/posts/liga-ctf-2026-week-2-boot-to-root/</link>
+      <pubDate>Mon, 01 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/liga-ctf-2026-week-2-boot-to-root/</guid>
+      <description>CTF Write-Up for all Boot-to-Root challenges that were solved during Week 2 of Liga CTF 2026.</description>
+    </item>
+    <item>
+      <title>LIGA CTF 2026 (Week 1) – Reverse Engineering, Cryptography</title>
+      <link>http://localhost:1313/posts/liga-ctf-2026-week-1-reverse-engineering-cryptography/</link>
+      <pubDate>Mon, 25 May 2026 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/liga-ctf-2026-week-1-reverse-engineering-cryptography/</guid>
+      <description>CTF Write-Up for all Reverse Engineering, Cryptography challenges that were solved during Week 1 of Liga CTF 2026.</description>
+    </item>
+  </channel>
+</rss>

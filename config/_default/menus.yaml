@@ -1,0 +1,50 @@
+main:
+  - name: Home
+    pageRef: /home
+    weight: 10
+    params:
+      icon: home
+
+  - name: Posts
+    pageRef: /posts
+    weight: 20
+    params:
+      icon: posts
+  
+  - name: About Me
+    pageRef: /about
+    weight: 30
+    params:
+      icon: about
+
+# footer menu
+footer:
+  - name: Posts
+    pageRef: /posts
+    weight: 10
+    params:
+      icon: posts
+
+  - name: About Me
+    pageRef: /about
+    weight: 20
+    params:
+      icon: about
+
+# footer social link
+social:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/itznawfalz04/
+    weight: 10
+    params:
+      icon: linkedin
+  - name: GitHub
+    url: https://github.com/ItzNawfalz04
+    weight: 20
+    params:
+      icon: github
+  - name: Email
+    url: mailto:muhdnawfal1573@gmail.com
+    weight: 30
+    params:
+      icon: email

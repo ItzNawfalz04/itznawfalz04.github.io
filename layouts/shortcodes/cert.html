@@ -1,0 +1,28 @@
+<a
+    href="{{ .Get "url" }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="cert-card bg-card border-border hover:border-primary flex h-full flex-col rounded-xl border p-5 transition-all hover:-translate-y-1 hover:shadow-lg"
+>
+    <div class="cert-logo">
+        <img
+            src="{{ .Get "logo" }}"
+            alt="{{ .Get "org" }}"
+            class="cert-logo-image"
+        />
+    </div>
+
+    <div class="cert-title">
+        {{ .Get "title" }}
+    </div>
+
+    <div class="cert-footer">
+        <div class="cert-org text-muted-foreground text-sm">
+            {{ .Get "org" }}
+        </div>
+
+        <div class="text-muted-foreground text-sm">
+            {{ .Get "date" }}
+        </div>
+    </div>
+</a>

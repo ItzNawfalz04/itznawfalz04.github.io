@@ -1,0 +1,118 @@
+<style>
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+/*
+ * When the certificate grid is used inside the Resume layout,
+ * resume.html automatically wraps the section in .resume-entry.
+ *
+ * Remove that visual wrapper only when it contains our certificate grid.
+ */
+.resume-entry:has(.resume-cert-grid) {
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.resume-entry:has(.resume-cert-grid) > .prose {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+}
+
+.cert-grid > a {
+    height: 100%;
+    min-height: 260px;
+}
+
+.cert-card,
+.cert-card:hover,
+.cert-card:focus,
+.cert-card:visited {
+    text-decoration: none !important;
+}
+
+.cert-card .cert-title,
+.cert-card .cert-org,
+.cert-card .text-muted-foreground {
+    text-decoration: none !important;
+}
+
+.cert-org {
+    display: -webkit-box;
+    line-clamp: 1;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    line-height: 1.4;
+    min-height: 1.4rem;
+}
+
+.cert-logo {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.cert-logo-image {
+    max-width: 100%;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+.cert-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 1rem;
+
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    min-height: 3.4rem;
+}
+
+.cert-footer {
+    margin-top: auto;
+}
+
+.cert-footer .text-muted-foreground:first-child {
+    margin-bottom: 0.25rem;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .cert-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .cert-grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+</style>
+
+<div class="cert-grid resume-cert-grid">
+    {{ .Inner }}
+</div>

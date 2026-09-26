@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[] Liga CTF 2026 on ItzNawfalz04</title>
+    <link>http://192.168.0.151:1313/series/-liga-ctf-2026/</link>
+    <description>Recent content in [] Liga CTF 2026 on ItzNawfalz04</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Sun, 24 May 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://192.168.0.151:1313/series/-liga-ctf-2026/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 1</title>
+      <link>http://192.168.0.151:1313/posts/week-1/</link>
+      <pubDate>Sun, 24 May 2026 10:00:00 +0800</pubDate>
+      <guid>http://192.168.0.151:1313/posts/week-1/</guid>
+      <description>CTF Write-Up for all the challenges that solved in Liga CTF 2026.</description>
+    </item>
+  </channel>
+</rss>
