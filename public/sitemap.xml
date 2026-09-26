@@ -44,10 +44,12 @@
     <loc>http://localhost:1313/posts/universiti-malaya-cybersecurity-summit-2026-ctf/</loc>
     <lastmod>2026-04-30T10:00:00+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/about-me/</loc>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/cert/</loc>
+    <loc>http://localhost:1313/projects/</loc>
   </url>
 </urlset>
