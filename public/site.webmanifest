@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "categories": [
+    "blog",
+    "technology",
+    "education"
+  ],
+  "description": "Hi, my name is Nawfal, and I am a Software Engineering student at Universiti Teknologi Malaysia (UTM). Welcome to my personal website, where I showcase my projects, my writings, and document my learning journey. This space reflects my growth, skills, and interests in computing and technology. ",
+  "dir": "ltr",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "any",
+      "src": "/favicon.svg",
+      "type": "image/svg+xml"
+    }
+  ],
+  "lang": "en",
+  "name": "ItzNawfalz04",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "short_name": "ItzNawfalz04",
+  "start_url": "/",
+  "theme_color": "#09090b"
+}

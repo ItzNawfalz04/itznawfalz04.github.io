@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UMCS 2026 on ItzNawfalz04</title>
+    <link>http://localhost:1313/tags/umcs-2026/</link>
+    <description>Recent content in UMCS 2026 on ItzNawfalz04</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Thu, 30 Apr 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/umcs-2026/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Universiti Malaya Cybersecurity Summit 2026 CTF</title>
+      <link>http://localhost:1313/posts/universiti-malaya-cybersecurity-summit-2026-ctf/</link>
+      <pubDate>Thu, 30 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/universiti-malaya-cybersecurity-summit-2026-ctf/</guid>
+      <description>CTF Write-Up for all challenges that were solved during UMCS 2026 CTF.</description>
+    </item>
+  </channel>
+</rss>
